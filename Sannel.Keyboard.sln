@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2218FE06-4C61-4FFE-967A-40ADB15A3059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sannel.Keyboard", "src\Sannel.Keyboard\Sannel.Keyboard.csproj", "{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sannel.Keybaord.Driver.Uhid", "src\Sannel.Keyboard.Driver.Uhid\Sannel.Keyboard.Driver.Uhid.csproj", "{59043852-90CD-4663-94B4-275FBEA1333F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sannel.Keyboard.Tests", "src\Sannel.Keyboard.Tests\Sannel.Keyboard.Tests.csproj", "{BC4016D8-07CC-4CE2-A46E-66325EA00B20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Debug|x64.Build.0 = Debug|Any CPU
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Debug|x86.Build.0 = Debug|Any CPU
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Release|x64.ActiveCfg = Release|Any CPU
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Release|x64.Build.0 = Release|Any CPU
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Release|x86.ActiveCfg = Release|Any CPU
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410}.Release|x86.Build.0 = Release|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Debug|x64.Build.0 = Debug|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Debug|x86.Build.0 = Debug|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Release|x64.ActiveCfg = Release|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Release|x64.Build.0 = Release|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Release|x86.ActiveCfg = Release|Any CPU
+		{59043852-90CD-4663-94B4-275FBEA1333F}.Release|x86.Build.0 = Release|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Debug|x64.Build.0 = Debug|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Debug|x86.Build.0 = Debug|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Release|x64.ActiveCfg = Release|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Release|x64.Build.0 = Release|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Release|x86.ActiveCfg = Release|Any CPU
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EF91335-18C1-4DF7-8BAA-DE6D41E8D410} = {2218FE06-4C61-4FFE-967A-40ADB15A3059}
+		{59043852-90CD-4663-94B4-275FBEA1333F} = {2218FE06-4C61-4FFE-967A-40ADB15A3059}
+		{BC4016D8-07CC-4CE2-A46E-66325EA00B20} = {2218FE06-4C61-4FFE-967A-40ADB15A3059}
+	EndGlobalSection
+EndGlobal
