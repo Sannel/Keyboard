@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/Sannel/Keyboard</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Sannel/Keyboard</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Sannel.Keyboard\Sannel.Keyboard.csproj" />
+  </ItemGroup>
+
+</Project>

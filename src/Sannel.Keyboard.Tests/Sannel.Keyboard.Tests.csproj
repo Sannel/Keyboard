@@ -7,7 +7,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="../Sannel.Keyboard/Sannel.Keyboard.csproj" />
-    <ProjectReference Include="../Sannel.Keyboard.Driver.Uhid/Sannel.Keyboard.Driver.Uhid.csproj" />
+    <ProjectReference Include="..\Drivers\Uhid\Sannel.Keyboard.Drivers.Uhid\Sannel.Keyboard.Drivers.Uhid.csproj" />
   </ItemGroup>
 
   <ItemGroup>

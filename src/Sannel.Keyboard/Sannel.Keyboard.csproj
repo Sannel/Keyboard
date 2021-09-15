@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Company>Sannel Software, L.L.C.</Company>
+    <PackageProjectUrl>https://github.com/Sannel/Keyboard</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Sannel/Keyboard</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>0.0.1</Version>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+		  <None Include="..\..\LICENSE">
+			  <Pack>True</Pack>
+			  <PackagePath></PackagePath>
+		  </None>
+  </ItemGroup>
 
 </Project>
